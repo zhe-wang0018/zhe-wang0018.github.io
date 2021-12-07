@@ -130,6 +130,10 @@ em {
 	font-style: italic;
 }
 
+rem {
+	font-family: Copperplate, Papyrus, fantasy;
+}
+
 strong {
 	font-weight: bold;
 }
