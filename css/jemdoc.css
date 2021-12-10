@@ -442,13 +442,13 @@ table.imgtable, table.imgtable td {
     }
     #other_logo {
       position: absolute;
-      left: 850px;
-      height: 100px;
+      left: 750px;
+      
     }
     #square_logo {
       position: absolute;
       left: 650px;
-      height: 100px;
+      
     }
   }
 
@@ -466,13 +466,13 @@ table.imgtable, table.imgtable td {
     }
     #other_logo {
       position: absolute;
-      left: 700px;
-      height: 100px;
+      left: 850px;
+      
     }
     #square_logo {
       position: absolute;
       left: 650px;
-      height: 100px;
+      
     }
   }
   @media screen and (min-width: 1500px) {
@@ -489,13 +489,13 @@ table.imgtable, table.imgtable td {
     }
     #other_logo {
       position: absolute;
-      left: 700px;
-      height: 100px;
+      left: 950px;
+      
     }
     #square_logo {
       position: absolute;
       left: 650px;
-      height: 100px;
+      
     }
   }
 
@@ -513,13 +513,13 @@ table.imgtable, table.imgtable td {
     }
     #other_logo {
       position: absolute;
-      left: 700px;
-      height: 100px;
+      left: 1050px;
+      
     }
     #square_logo {
       position: absolute;
       left: 650px;
-      height: 100px;
+      
     }
   }
   @media screen and (min-width: 1900px) {
@@ -536,13 +536,13 @@ table.imgtable, table.imgtable td {
     }
     #other_logo {
       position: absolute;
-      left: 700px;
-      height: 100px;
+      left: 1150px;
+      
     }
     #square_logo {
       position: absolute;
       left: 650px;
-      height: 100px;
+      
     }
   }
   @media screen and (min-width: 2100px) {
@@ -559,36 +559,36 @@ table.imgtable, table.imgtable td {
     }
     #other_logo {
       position: absolute;
-      left: 700px;
-      height: 100px;
+      left: 1250px;
+      
     }
     #square_logo {
       position: absolute;
       left: 650px;
-      height: 100px;
+      
     }
   }
-  @media screen and (min-width: 1700px) {
+  @media screen and (min-width: 2300px) {
     #school_logo {
       position: absolute;
-      left: 1000px;
+      left: 1300px;
       /*height: 90px;*/
     }
 
     #research_logo {
       position: absolute;
-      left: 1020px;
+      left: 1320px;
       /*height: 100px;*/
     }
     #other_logo {
       position: absolute;
-      left: 700px;
-      height: 100px;
+      left: 1350px;
+      
     }
     #square_logo {
       position: absolute;
       left: 650px;
-      height: 100px;
+      
     }
   }
 
@@ -612,13 +612,13 @@ table.imgtable, table.imgtable td {
       position: absolute;
       visibility: hidden;
       display: none;
-      left: 700px;
-      height: 100px;
+      left: 750px;
+      
     }
     #square_logo {
       position: absolute;
       left: 650px;
-      height: 100px;
+      
     }
   }
   
