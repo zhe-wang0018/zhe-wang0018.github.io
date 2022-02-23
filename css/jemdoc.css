@@ -32,6 +32,10 @@ body {
   max-width: 960px;
 }
 
+#player { 
+ width: 20%; 
+}
+
 #layout-menu {
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
