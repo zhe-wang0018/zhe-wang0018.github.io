@@ -22,6 +22,8 @@
   })();
 </script>
 
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+
 <style id="nightModeStyle">
 html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) body,
 html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body {-webkit-filter:contrast(91%) brightness(84%) invert(1);}</style><style id="cyebody">html.cye-enabled.cye-lm body{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style><style id="cyediv">html.cye-enabled.cye-lm div{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style><style id="cyetable">html.cye-enabled.cye-lm th{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}html.cye-enabled.cye-lm td{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style><style id="cyetextInput">html.cye-enabled.cye-lm input[type=text]{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}html.cye-enabled.cye-lm textarea{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style><style id="cyeselect">html.cye-enabled.cye-lm select{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style><style id="cyeul">html.cye-enabled.cye-lm ul{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style><style id="cyeChangeByClick">html.cye-enabled.cye-lm .cye-lm-tag,html.cye-enabled.cye-lm.cye-lm-tag{background-color:#cce8cf !important;border-color:rgb(51, 58, 51) !important;background-image:none !important;color:#000000  !important}</style>
@@ -51,17 +53,17 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
 	
 </head>
 <body ryt12610="1">
-<!--<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
     <div id="layout-menu">
         <a href=" ">Home</a>
         <a href="#biography">Biography</a>
-	<a href="#experience">Experience</a>
-        <a href="#publications">Publications</a>
-        <a href="#awards">Awards</a>
+        <a href="#news">News</a>
+        <a href="#education">Education</a>
+        <a href="#research">Research</a>
         <a href="#skills">Skills</a>
-        <a href="./share/Curriculum Vitae.pdf" target="_blank">CV</a>
+        <a href="#misc">Miscellanies</a>
     </div>
-</nav>-->
+</nav>
 	
 <div id="layout-content" style="margin-top:15px">
 
@@ -74,11 +76,11 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
           <img src="./images/WANGZhe.png" height="40px" style="margin-bottom:-3px"><br><br>
           (My Chinese name in <a href="https://zh.wikipedia.org/wiki/%E9%AD%8F%E7%A2%91" target="_blank">Weibei</a> Script)<br><br>
 
-          <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+          
 
           <div id="pronounceLink" style="display:block;"><p><a href="#" onclick="$('#pronounce').toggle(); return false;"><i>How to pronounce?</i></a></p></div>
-            <div id="pronounce" style="display:none;" class="alert">
-          <p>
+          <div id="pronounce" style="display:none;" class="alert">
+            <p>
             My name can be pronounced as: <br> 
             <i style="color:#FF0000";>Lionel/ˈɫaɪənəɫ/ Zhe/ʈʂɤˊ/ WANG/wɑŋˊ/</i> <br>
             here is a more standard Chinese pronunciation: <br>
@@ -88,72 +90,71 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
             <source src="./audio/WANGZhe-Pron.mp3" type="audio/mpeg">
               </audio>
           </div>
-
-          <!--<audio id="player" controls="controls">
-                <source src="./WANGZhe-Pron.mp3" type="audio/mp3" />
-          </audio><br><br>-->
           
-          <h4 style="color:#006400">My Motto: <br><br><rem style="color:#17202A">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FORTI NINIL DIFFICILE<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIRTUTE FORTUNA COMES<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VENI, VIDI, VICI</br></rem></h4>
-          <!--<h4><rem>VIRTUTE FORTUNA COMES</rem></h4>-->
-          <!--<h4><rem>VENI, VIDI, VICI</rem></h4>-->
+          <h4  style="color:#006400"><b>My Motto:</b> <br><br><rem style="color:#17202A">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FORTI NINIL DIFFICILE<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIRTUTE FORTUNA COMES<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VENI, VIDI, VICI</br></rem></h4>
         
-        <h3 style="color:#17202A";>Undergraduate Student</a></h3>
-        <p>
-          <a href='https://www.polyu.edu.hk/comp/' target="_blank">Department of Computing</a>  <br>
-          <a href='https://www.polyu.edu.hk/' target="_blank">The Hong Kong Polytechnic University</a> <br>
-          
-
-
-          <div id="EmailLink" style="display:block;"><h4><u><a href="#" onclick="$('#email').toggle(); return false;">Email and Curriculum Vitae</a></u></h4></div>
+          <h3 style="color:#17202A";>Undergraduate Student</a></h3>
+          <p>
+            <a href='https://www.polyu.edu.hk/comp/' target="_blank">Department of Computing</a>  <br>
+            <a href='https://www.polyu.edu.hk/' target="_blank">The Hong Kong Polytechnic University</a> 
+            <div style="float:left"><img src="./images/compbanner.png" border="0" width="220"></div><br><br><br>
+            <div id="EmailLink" style="display:block;"><h4><u><a href="#" onclick="$('#email').toggle(); return false;">Email and Curriculum Vitae</a></u></h4></div>
             <div id="email" style="display:none;" class="alert">
-          <u>University Email:</u> <a href="mailto:lionel.wang@connect.polyu.hk" target="_blank">lionel.wang@connect.polyu.hk</a><br>
-          <u>Personal Email:</u> <a href="mailto:lionelwang001111@gmail.com" target="_blank">lionelwang001111@gmail.com</a><br>
-          <u>Curriculum Vitae:</u> <a href=" " target="_blank">PuPPyW's Résumé</a>
-          
-          </div>
-	      
-	    </p>
-  <p>
-    <a href=" " target="_blank"><img src="./images/cv.png" height="30px" style="margin-bottom:-3px"></a>
-	<a href="mailto:lionel.wang@connect.polyu.hk" target="_blank"><img src="./images/mail.jpeg" height="30px" style="margin-bottom:-3px"></a>
-    <a href="https://drive.google.com/file/d/17v37FEYUyRTcakCXTb90aDvGNRndUHAY/view?usp=sharing" target="_blank"><img src="./images/phone.png" height="30px" style="margin-bottom:-3px"></a>
-	<a href=" " target="_blank"><img src="./images/github.jpeg" height="30px" style="margin-bottom:-3px"></a>
-    <!--<a href=" " target="_blank"><img src="./images/researchgate.png" height="30px" style="margin-bottom:-3px"></a>-->
-	<a href="https://www.linkedin.com/in/zhe-wang-b946681a5/" target="_blank"><img src="./images/linkedin.png" height="30px" style="margin-bottom:-3px"></a>
-	<a href="https://www.zhihu.com/people/er-hou-qing-shang-i" target="_blank"><img src="./images/zhihu1.png" height="30px" style="margin-bottom:-3px"></a>
-    <a href="https://twitter.com/BlackCat_PuPPyW" target="_blank"><img src="./images/twitter.png" height="30px" style="margin-bottom:-3px"></a>
-	<a href="https://drive.google.com/file/d/1MZ0bC6aVGffp1eA4CGULSRdeNUhF3nuQ/view?usp=sharing" target="_blank"><img src="./images/wechat1.png" height="30px" style="margin-bottom:-3px"></a>	
-    <!--<a href="https://m.dongqiudi.com/home/1" target="_blank"><img src="./images/soccer.png" height="30px" style="margin-bottom:-3px"></a>-->
-	</p>
-      </td>
-      <td>
-	<div style="float:right"><img src="./images/zhewang.png" border="0" width="320"></div>
-  <p align="center">Eron Reeve Musk, My Idol</p>
-      </td>
-    </tr><tr>
-  </tr>
-</tbody>
+               <u>University Email:</u> <a href="mailto:lionel.wang@connect.polyu.hk" target="_blank">lionel.wang@connect.polyu.hk</a><br>
+               <u>Personal Email:</u> <a href="mailto:lionelwang001111@gmail.com" target="_blank">lionelwang001111@gmail.com</a><br>
+               <u>Curriculum Vitae:</u> <a href=" " target="_blank">PuPPyW's Résumé</a>
+            </div>
+	        </p>
+
+          <div href="#icon">
+          <p>
+             <a href=" " target="_blank"><img src="./images/cv.png" height="30px" style="margin-bottom:-3px"></a>
+	           <a href="mailto:lionel.wang@connect.polyu.hk" target="_blank"><img src="./images/mail.jpeg" height="30px" style="margin-bottom:-3px"></a>
+             <a href="https://drive.google.com/file/d/17v37FEYUyRTcakCXTb90aDvGNRndUHAY/view?usp=sharing" target="_blank"><img src="./images/phone.png" height="30px" style="margin-bottom:-3px"></a>
+	           <a href=" " target="_blank"><img src="./images/github.jpeg" height="30px" style="margin-bottom:-3px"></a>
+             <!--<a href=" " target="_blank"><img src="./images/researchgate.png" height="30px" style="margin-bottom:-3px"></a>-->
+	           <a href="https://www.linkedin.com/in/zhe-wang-b946681a5/" target="_blank"><img src="./images/linkedin.png" height="30px" style="margin-bottom:-3px"></a>
+	           <a href="https://www.zhihu.com/people/er-hou-qing-shang-i" target="_blank"><img src="./images/zhihu1.png" height="30px" style="margin-bottom:-3px"></a>
+             <a href="https://twitter.com/BlackCat_PuPPyW" target="_blank"><img src="./images/twitter.png" height="30px" style="margin-bottom:-3px"></a>
+	           <a href="https://drive.google.com/file/d/1MZ0bC6aVGffp1eA4CGULSRdeNUhF3nuQ/view?usp=sharing" target="_blank"><img src="./images/wechat1.png" height="30px" style="margin-bottom:-3px"></a>	
+             <a href="https://space.bilibili.com/473532738/" target="_blank"><img src="./images/bilibili.jpeg" height="30px" style="margin-bottom:-3px"></a> 
+             <!--<a href="https://m.dongqiudi.com/home/1" target="_blank"><img src="./images/soccer.png" height="30px" style="margin-bottom:-3px"></a>-->
+	       </p>
+         </div>
+    </td>
+         <td>
+	          <div style="float:right"><img src="./images/zhewang.png" border="0" width="350">
+            <p align="center"><i>(<a href="https://twitter.com/elonmusk" target="_blank">Eron Reeve Musk</a>, My Idol)</i></p></div>
+         </td>
+     </tr>
+  </tbody>
 </table>
 
-<h2 style="color:#800000";>Biography</h2>
-  <p>
-  I am a senior undergraduate student majoring in Financial Technology and Artificial Intelligence in The Hong Kong Polytechnic University. 
-  I am forturnately to conduct research under the supervision by Prof. <a href='https://yulequan.github.io/' target="_blank">Lequan Yu</a>. My research interest lies on AI for healthcare, Natural Language Processing, etc. 
-  </p>
-  <p>
-  My idol is <a href="https://twitter.com/elonmusk" target="_blank">Eron Reeve Musk</a>, &#128640; I believe the future of human being lies in the universe. &#127756; <b>The stars, my destination!</b> &#128301;
-  </p>
-  
 
-<h2 style="color:#800000";>Update</h2>
-  <p style="color:#FF0000";>
-  WeChat/Telegram Group about MS/PHD Application in 2023 fall (Not limited to CS) are open to join now. If you are intersted, feel free to contact me with your personal introduction via email, Twitter or WeChat (Icon is Shown above).<br>
-  Besides, I am also happy to make new <a href="#friends">friends</a>, you may also contact me in the same way.
-  </p>
-	
+
+<div id="biography">
+<h2 style="color:#800000";>Biography</h2>
+  <ol>
+  <li>I am a senior undergraduate student at The Hong Kong Polytechnic University. </li>
+  <li>My major is Financial Technology and Artificial Intelligence, minor is Applied Mathematics.</li>
+  <li>My research interest lies on AI for Healthcare, Medical Image Analysis, Natural Language Processing, etc. </li>
+  <li>Currently I am forturnately to conduct research under the supervision by Prof. <a href='https://yulequan.github.io/' target="_blank">Lequan Yu</a>. </li>
+  <li>
+  &#128640; I believe the future of human being lies in the universe. &#127756; <b>The stars, my destination!</b> &#128301;</li>
+  </ol>
+</div> 
+
+
+<div id="news">
 <h2 style="color:#800000";>News</h2>
 <!--<div style="height: 240px; overflow: auto;">-->
 <ul>
+<li>
+  <p style="color:#FF0000";>
+  [02/2022] WeChat/Telegram Group about <a href='https://docs.qq.com/doc/DU0ZWVk9pS2xpZUF5' target="_blank"><u>MS/PHD Application</u></a> in 2023 fall are open to join now. Every applicant could join, if you are intersted, feel free to contact me with your personal introduction via email, Twitter or WeChat (The <a href="#icon">Icons</a> are Shown above).<br>
+  Besides, I am also happy to make new <a href="#friends">friends</a>, you may also contact me in the same way.
+  </p>
+</li>
 <li>
 [12/2021] Fortunately I will conduct my Work-Integrated-Education Internship remotely in <a href="https://ist.sjtu.edu.cn/" target="_blank">IST lab</a>, Shanghai Jiao Tong University. I am so haapy to be supervsied by Prof. Hu! &#128170;
 </li>
@@ -164,15 +165,17 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
 [07/2021] Our URIS project has been approved, Congrats to all of the group members! &#127881; Thanks for the kindly help and supervision by Prof. Yang! &#9994;
 </li>-->				
 </ul>
-<!--</div>-->
-	
+</div>
+
+
+<div id="education">
 <h2 style="color:#800000";>Education</h2>
 <ul>
   
   <div id="polyu education">
   <!--<img id='school_logo' src="./images/polyu.png" border="0" width="350">-->
   <td>
-  <div style="float:right"><img src="./images/polyu.png" border="0" width="350"></div>
+  <div style="float:right"><img src="./images/polyu85.png" border="0" width="350"></div>
   </td>
   <li>
   <b>The Hong Kong Polytechnic University</b>&nbsp;&nbsp;&nbsp;&nbsp;2019.09&nbsp;-&nbsp;2023.06
@@ -192,8 +195,12 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
   </div>-->
 
 </ul>
-
+</div>
 	
+
+
+
+<div id="research">
 <h2 style="color:#800000";>Research Experience</h2>
 <ul>
 	
@@ -225,9 +232,11 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
   </div>
   <br>
 
-
+</ul>
   
 
+<h2 style="color:#800000";>Past Research Experience</h2>
+<ul>
   <!--<div id="uris">
   <img id='school_logo' src="./images/polyu.png" border="0" width="350">
   <li>
@@ -238,17 +247,34 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
   </div>
   <br>-->
 
-  <!--<div id="thu">
-    <img id='school_logo' src="./images/thu.jpeg" border="0" width="250">
+  <div id="thu">
+  <td>
+  <div style="float:right"><img src="./images/thu110.png" border="0" width="350"></div>
+  </td>
+    <!--<img id='school_logo' src="./images/thu.jpeg" border="0" width="250">-->
   <li>
   <b>Tsinghua University</b>&nbsp;&nbsp;&nbsp;&nbsp;2021.03&nbsp;-&nbsp;2021.06
   </li>
   Undergraduate Research Intern</a><br>
   Supervisor: Prof. <a href='http://nlp.csai.tsinghua.edu.cn/~lzy/' target="_blank">Zhiyuan Liu</a>  
   <p>Topic: Legal document processing by NLP</p>
-  </div>-->
+  </div>
 
+  <div id="uris">
+  <td>
+  <div style="float:right"><img src="./images/polyu.png" border="0" width="320"></div>
+  </td>
+  <!--<img id='school_logo' src="./images/polyu.png" border="0" width="350">-->
+  <li>
+  <b>The Hong Kong Polytechnic University</b>&nbsp;&nbsp;&nbsp;&nbsp;2020.09&nbsp;-&nbsp;2021.09
+  </li>
+  Undergraduate Research Intern<br>
+  Supervisor: Prof. <a href='http://www4.comp.polyu.edu.hk/~jing1li/' target="_blank">Jing Li</a> 
+  <p>Topic: Privacy Document Analysis</p>
+  </div>
 </ul>
+</div>
+
 
 
 <!--<h2>Publications</h2>
@@ -270,44 +296,64 @@ None
 <li>Outbound Exchange Scholarship: The summer school in University of Cambridge with scholarship HK$5,000</li>
 <li>URIS Scholarship: Group project with funding HK$30,000 and scholarship HK$7,000</li>-->
 
+
 <h2 style="color:#800000";>Social Activities</h2>
 <ul>
 <div id="bytedance">
-  <img id='school_logo' src="./images/bytedance.png" border="0" width="250">
+  <td>
+  <div style="float:right"><img src="./images/bytedance.png" border="0" width="300"></div>
+  </td>
+  <!--<img id='school_logo' src="./images/bytedance.png" border="0" width="250">-->
   <li>
   <b>ByteDance Campus Ambassador</b>&nbsp;&nbsp;&nbsp;&nbsp;2021.03&nbsp;-&nbsp;now
   </li>
+  Undergraduate Intern<br>
+  Enterprise: ByteDance.Inc<br>
   Campus Ambassador in The Hong Kong Polytechnic University</a><br>
   <br>
 </div>
 </ul>
 
+
+
+<div id="skills">
 <h2 style="color:#800000";>Skills</h2>
 <ul>
 <div id="programming languages">
-  <img id='school_logo' src="./images/python.png" border="0" width="250">
+  <td>
+  <div style="float:right"><img src="./images/python.png" border="0" width="300"></div>
+  </td>
+  <!--<img id='school_logo' src="./images/python.png" border="0" width="250">-->
   <li>
   <b>Programming Languages: &#128187;</b>
   </li>
-  <p>Python, HTML5, CSS, JavaScript</p>
-</div>
-<br>
-<div id="programming languages">
-  <img id='school_logo' src="./images/latex.png" border="0" width="250">
+  <p>Python, C++, SQL, HTML5, CSS, JavaScript</p>
   <li>
   <b>Package & Tools: &#128421;</b>
   </li>
   <p>Pytorch, LaTex</p>
 </div>
+
+<!--<div id="programming languages">
+  <td>
+  <div style="float:right"><img src="./images/latex.png" border="0" width="250"></div>
+  </td>
+  <img id='school_logo' src="./images/latex.png" border="0" width="250">-->
 </ul>
+</div>
 
 
+
+<div id="misc">
 <h2 style="color:#800000";>Miscellanies</h2>
 
 <ul>
 <div id="friends">
+  <td>
+  <div style="float:right"><img src="./images/braveheart1.jpeg" border="0" width="300"></div>
+  </td>
   <b>People: &#129308;&#129307;</b><br>
-  <img id='school_logo' src="./images/braveheart1.jpeg" border="0" width="250">
+  <!--<img id='school_logo' src="./images/braveheart1.jpeg" border="0" width="250">-->
   <br>
 
   <div id="MentorLink" style="display:block;"><u><a href="#" onclick="$('#mentor').toggle(); return false;">Mentors (UG Research)</a></u></div>
@@ -319,7 +365,8 @@ None
 
   <div id="FriendLink" style="display:block;"><u><a href="#" onclick="$('#friend').toggle(); return false;">Friends</a></u></div>
   <br>
-            <div id="friend" style="display:none;" class="alert">
+
+  <div id="friend" style="display:none;" class="alert">
   <i>The Hong Kong Polytechnic University:</i> <br>
   <a href="https://github.com/WPCJATH"  target="_blank">Xiangzhi Wang</a>,&nbsp
   <a href="https://yubo.space/"  target="_blank">Yubo Zhang</a>,&nbsp
@@ -343,10 +390,13 @@ None
   Xi'an Jiaotong University: <br>
   <a href="https://bytew.net/"  target="_blank">Zhikun Wang</a>
   <br><br>
+  SiChuan University: <br>
+  <a href="https://zoedsy.github.io/"  target="_blank">Shiyi Du</a>
+  <br><br>
   Tongji University: <br>
   <a href="https://zhuowenzheng.github.io/"  target="_blank">Zhuowen Zheng</a><br><br>
-            </div>
-            </div>
+  </div>
+
   <div id="IdolLink" style="display:block;"><u><a href="#" onclick="$('#idol').toggle(); return false;">Idols</a></u></div>
   <br>
             <div id="idol" style="display:none;" class="alert">
@@ -355,6 +405,52 @@ None
             </div>
   
 </div>
+
+<b>My Hobbies &#10004;</b><br>
+<br>
+<div id="HobbyLink" style="display:block;"><u><a href="#" onclick="$('#hobby').toggle(); return false;">Hobby</a></u></div>
+  <br>
+<div id="hobby" style="display:none;" class="alert">
+  Soccer &#9917;,&nbsp <a href="https://fo4.qq.com/" target="_blank">FIFA OL4</a> &#127918;,&nbsp Movies &#127916;, <a href="https://en.wikipedia.org/wiki/Dou_dizhu" target="_blank">Dou dizhu</a> &#127183;
+    <p style="margin-top:3px">
+    </p>
+</div>
+
+
+<b>Bilibili Video: &#9996;</b><br>
+<br>
+<div id="BilibiliLink" style="display:block;"><u><a href="#" onclick="$('#bilibili').toggle(); return false;">Bilibili Interview</a></u></div>
+  <br>
+<ol>
+<div id="bilibili" style="display:none;" class="alert">
+<li>This video talks about why I chose to major in Computer Science at The Hong Kong Polytechnic University, and my views on computer science employment future.<br><br>
+<div style="position: relative; padding: 30% 45%;">
+
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?aid=550595567&bvid=BV1fq4y1w7dP&cid=481737273&page=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="allowfullscreen" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
+</div>
+</li>
+
+
+<li>
+This video further explores doctoral studies and careers in computer science, and what artificial intelligence is.<br><br>
+<div style="position: relative; padding: 30% 45%;">
+
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?aid=808073652&bvid=BV1J34y1B7PA&cid=482735588&page=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="allowfullscreen" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
+</div> 
+</li>
+
+<li>
+In this video, we talk about life in Hong Kong, full English taught mode and other topics.<br><br>
+<div style="position: relative; padding: 30% 45%;">
+
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?aid=808125533&bvid=BV1i34y1B7T1&cid=483773014&page=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="allowfullscreen" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
+</div> 
+</li>
+
+
+</div>
+</ol>
+
 
 <!--<div id="hobby">
   <img style="position:absolute;margin-left:450px" src="./images/fifa.png" border="0" width="200">

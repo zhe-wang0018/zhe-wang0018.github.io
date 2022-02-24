@@ -39,7 +39,8 @@ body {
 #layout-menu {
 	background: #f6f6f6;
 	border: 1px solid #dddddd;
-	padding-top: 0.5em;
+	padding-top: 0.4em;
+  padding-bottom: 1.8em;
 	padding-left: 8px;
 	padding-right: 8px;
 	font-size: 1.0em;
@@ -65,8 +66,14 @@ body {
 }
 
 #layout-menu a {
-	line-height: 1.5em;
-	margin-left: 0.5em;
+  list-style-type: none;
+    float: left;
+    width: 13%;    
+    text-align: center;
+    line-height: 1.5em;
+  margin-left: 0.5em;
+	/*line-height: 1.5em;
+	margin-left: 0.5em;*/
 }
 
 tt {
