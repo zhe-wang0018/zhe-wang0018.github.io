@@ -22,7 +22,12 @@
   })();
 </script>
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
 <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="base64.js"></script>
+
 
 <style id="nightModeStyle">
 html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) body,
@@ -77,11 +82,62 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
         <div id="toptitle">
           <h1 style="color:#FF0000";>Lionel Zhe WANG</h1><br>
           <img src="./images/WANGZhe.png" height="40px" style="margin-bottom:-3px"><br><br>
-          (My Chinese name in <a href="https://zh.wikipedia.org/wiki/%E9%AD%8F%E7%A2%91" target="_blank">Weibei</a> Script)<br><br>
+          <div>
+          (My Chinese name in <a href="https://zh.wikipedia.org/wiki/%E9%AD%8F%E7%A2%91" target="_blank"><input type="button" value="Weibei" )></a> Script)
+        </div>
+        <br>
 
-          
+      
+  
+  <!--<script>
+  function testmd5(){
+    var b = btoa(encodeURIComponent('84');
+    var a = decodeURIComponent(atob(b));
+    if ( == a) {
+      alert(a)
+    }
+    else{
+      alert(b)
+    }
+  }-->
+  
+  <!--</script>
+  <input type="button" name="" id="" value="Enter Password to see my Photo" οnclick="testmd5()" />
+  <input type="password" name="" id="md5" value="123" />-->
 
-          <div id="pronounceLink" style="display:block;"><p><a href="#" onclick="$('#pronounce').toggle(); return false;"><i>How to pronounce?</i></a></p></div>
+
+      
+<!--<div id="photoLink" style="display:block;"><input type="button" href="#" value="Enter Protected Area" onClick="$('#photo').toggle(); return false;"></div>
+          <div id="photo" style="display:none;" class="alert">
+            123
+            123
+            123
+          </div>-->
+
+<!--<script type="text/javascript">   
+function password() {   
+var testV = 1;   
+var pass1 = prompt('Please enter the password:\n ','');   
+while (testV < 5) {   
+if (!pass1)   
+history.go(-1);   
+if (pass1 == "123") {//初始密码123   
+alert('密码正确');   
+break;   
+}   
+testV+=1;   
+var pass1 =   
+prompt('密码错误!请重新输入:');   
+}   
+if (pass1!="password" & testV ==3)   
+history.go(-1);   
+return " ";   
+}   
+document.write(password());   
+</script> --> 
+
+
+          <div id="pronounceLink" style="display:block;"><p><a href="#" onclick="$('#pronounce').toggle(); return false;"><i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How to pronounce?</i></a></p></div>
           <div id="pronounce" style="display:none;" class="alert">
             <p>
             My name can be pronounced as: <br> 
@@ -98,48 +154,55 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
         
           <h3 style="color:#17202A";>Undergraduate Student</a></h3>
           <p>
-            <a href='https://www.polyu.edu.hk/comp/' target="_blank"><i>Department of Computing</i></a>  <br>
-            <a href='https://www.polyu.edu.hk/' target="_blank"><i>The Hong Kong Polytechnic University</i></a> 
-            <div style="float:left"><a href='https://www.polyu.edu.hk/comp/' target="_blank"><img src="./images/compbanner.png" border="0" width="240"></a></div><br><br><br><br>
+            <i>Department of Computing</i>  <br>
+            <i>The Hong Kong Polytechnic University</i>
+            <div style="float:left"><a href='https://www.polyu.edu.hk' target="_blank"><img src="./images/polyu85.png" border="0" width="280"></a></div><br><br><br>
+            <div style="float:left"><a href='https://www.polyu.edu.hk/comp/' target="_blank"><img src="./images/compbanner.png" border="0" width="200"></a></div><br><br><br>
+
             <div id="EmailLink" style="display:block;"><h4><u><a href="#" onclick="$('#email').toggle(); return false;">Email and Curriculum Vitae</a></u></h4></div>
             <div id="email" style="display:none;" class="alert">
-               <u>University Email:</u> <a href="mailto:lionel.wang@connect.polyu.hk" target="_blank">lionel.wang@connect.polyu.hk</a><br>
-               <u>Personal Email:</u> <a href="mailto:lionelwang001111@gmail.com" target="_blank">lionelwang001111@gmail.com</a><br>
-               <u>Curriculum Vitae:</u> <a href=" " target="_blank">PuPPyW's Résumé</a><br><br>
+            <p>Email: lionel [dot] wang [at] connect [dot] polyu [dot] hk</p>
+            <p>
+              <a href="./Email&CV.html" target="_blank"><input type="button" value="Personal Email" )></a>
+              <a href="./Email&CV.html" target="_blank"><input type="button" value="Curriculum Vitae" )></a>
+            </p>
+            
             </div>
+            <div class="sharethis-inline-follow-buttons"></div>
 	        </p>
-
-          <div href="#icon">
-          <p>
-            <!-- ShareThis BEGIN <div class="sharethis-inline-follow-buttons"></div> ShareThis END -->
-
-            <b>Follow me:</b><br>
-             <!--<a href=" " target="_blank"><img src="./images/cv.png" height="30px" style="margin-bottom:-3px"></a>-->
-	           <a href="mailto:lionel.wang@connect.polyu.hk" target="_blank"><img src="./images/mail.jpeg" height="30px" style="margin-bottom:-3px"></a>
-             <a href="https://drive.google.com/file/d/17v37FEYUyRTcakCXTb90aDvGNRndUHAY/view?usp=sharing" target="_blank"><img src="./images/phone.png" height="30px" style="margin-bottom:-3px"></a>
-	           <a href=" " target="_blank"><img src="./images/github.jpeg" height="30px" style="margin-bottom:-3px"></a>
-             <a href=" " target="_blank"><img src="./images/researchgate.png" height="30px" style="margin-bottom:-3px"></a>
-	           <a href="https://www.linkedin.com/in/zhe-wang-b946681a5/" target="_blank"><img src="./images/linkedin.png" height="30px" style="margin-bottom:-3px"></a>
-	           <a href="https://www.zhihu.com/people/er-hou-qing-shang-i" target="_blank"><img src="./images/zhihu1.png" height="30px" style="margin-bottom:-3px"></a>
-             <a href="https://twitter.com/BlackCat_PuPPyW" target="_blank"><img src="./images/twitter.png" height="30px" style="margin-bottom:-3px"></a>
-	           <a href="https://drive.google.com/file/d/1MZ0bC6aVGffp1eA4CGULSRdeNUhF3nuQ/view?usp=sharing" target="_blank"><img src="./images/wechat1.png" height="30px" style="margin-bottom:-3px"></a>	
-             <a href="https://space.bilibili.com/473532738/" target="_blank"><img src="./images/bilibili.jpeg" height="30px" style="margin-bottom:-3px"></a>
-             <a href="https://www.youtube.com/channel/UC_X188GwPr6_4yqhVADAQrA" target="_blank"><img src="./images/youtube.png" height="30px" style="margin-bottom:-3px"></a>
-             <a href="https://m.dongqiudi.com/home/1" target="_blank"><img src="./images/soccer.png" height="30px" style="margin-bottom:-3px"></a>
-             <a href="https://www.quora.com/profile/%E5%93%B2-%E7%8E%8B-22" target="_blank"><img src="./images/quora.png" height="30px" style="margin-bottom:-3px"></a>
+	           
              
-             
-             
-             <br>
-             <a href="https://twitter.com/BlackCat_PuPPyW?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @BlackCat_PuPPyW</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-             <!-- Place this tag where you want the button to render. -->
-             <a class="github-button" href="https://github.com/zhe-wang0018" data-color-scheme="no-preference: dark_high_contrast; light: dark_high_contrast; dark: dark_high_contrast;" data-size="large" aria-label="Follow @zhe-wang0018 on GitHub">Follow @zhe-wang0018</a>
 	       </p>
          </div>
     </td>
          <td>
 	          <div style="float:right"><img src="./images/zhewang.png" border="0" width="400">
             <p align="center"><i>(<a href="https://twitter.com/elonmusk" target="_blank">Eron Reeve Musk</a>, My Idol)</i></p></div>
+            <br>
+            <a href="https://www.baidu.com" target="_blank">
+            <p align="center"><input type="button" value="Click to see my selfie" )></p></a>
+
+            <b>Reach me:</b><sup style="color:#FF0000";>Social media</sup><br><br>
+            <div id="icon">
+            <p align="center">
+             <!--<a href=" " target="_blank"><img src="./images/cv.png" height="30px" style="margin-bottom:-3px"></a>-->
+            <a href="mailto:lionel.wang@connect.polyu.hk" target="_blank"><img src="./images/mail.jpeg" height="30px" style="margin-bottom:-3px"></a>
+             <a href="https://drive.google.com/file/d/17v37FEYUyRTcakCXTb90aDvGNRndUHAY/view?usp=sharing" target="_blank"><img src="./images/phone.png" height="30px" style="margin-bottom:-3px"></a>
+             <!--<a href="https://github.com/zhe-wang0018" target="_blank"><img src="./images/github.jpeg" height="30px" style="margin-bottom:-3px"></a>-->
+             <a href=" " target="_blank"><img src="./images/researchgate.png" height="30px" style="margin-bottom:-3px"></a>
+             <a href="https://www.linkedin.com/in/zhe-wang-b946681a5/" target="_blank"><img src="./images/linkedin.png" height="30px" style="margin-bottom:-3px"></a>
+             <a href="https://www.zhihu.com/people/er-hou-qing-shang-i" target="_blank"><img src="./images/zhihu1.png" height="30px" style="margin-bottom:-3px"></a>
+             <a href="https://twitter.com/BlackCat_PuPPyW" target="_blank"><img src="./images/twitter.png" height="30px" style="margin-bottom:-3px"></a>
+             <a href="https://drive.google.com/file/d/1MZ0bC6aVGffp1eA4CGULSRdeNUhF3nuQ/view?usp=sharing" target="_blank"><img src="./images/wechat1.png" height="30px" style="margin-bottom:-3px"></a> 
+             <a href="" target="_blank"><img src="./images/bilibili.jpeg" height="30px" style="margin-bottom:-3px"></a>
+             <!--<a href="" target="_blank"><img src="./images/youtube.png" height="30px" style="margin-bottom:-3px"></a>-->
+             <!--<a href="https://m.dongqiudi.com/home/1" target="_blank"><img src="./images/soccer.png" height="30px" style="margin-bottom:-3px"></a>-->
+             <!--<a href="" target="_blank"><img src="./images/quora.png" height="30px" style="margin-bottom:-3px"></a>-->
+            </p>
+          </div>
+             
+             
+             <br>
          </td>
      </tr>
   </tbody>
@@ -152,10 +215,29 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
   <ol>
   <li>I am a senior undergraduate student at The Hong Kong Polytechnic University. (PolyU Class of 2023) </li>
   <li>My major is Financial Technology and Artificial Intelligence, while my minor is Applied Mathematics.</li>
-  <li>My research interest lies on AI for Healthcare, Medical Image Analysis, Natural Language Processing, etc. </li>
+  <li>My research interest lies on AI for Healthcare, Medical Image Analysis, <del>Natural Language Processing</del>, etc. </li>
   <li>Currently I am conducting undergraduate research under the supervision by Prof. <a href='https://yulequan.github.io/' target="_blank">Lequan Yu</a>. </li>
   <li>
   &#128640; I believe the future of human being lies in the universe. &#127756; <b>The stars, my destination!</b> &#128301;</li>
+  <li>
+  <b>Follow me:</b><br><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://twitter.com/BlackCat_PuPPyW?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="small" data-show-count="true">Follow @BlackCat_PuPPyW</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+  &nbsp;&nbsp;
+  <script src="https://apis.google.com/js/platform.js"></script>
+  <a class="github-button" href="https://github.com/zhe-wang0018" data-color-scheme="no-preference: dark_high_contrast; light: dark_high_contrast; dark: dark_high_contrast;" data-size="small" data-show-count="true" aria-label="Follow @zhe-wang0018 on GitHub">Follow @zhe-wang0018</a>
+  &nbsp;&nbsp;
+  <div data-type="xing/follow" data-counter="right" data-url="https://www.baidu.com">
+  </div>
+  <!-- Place the script for loading the plugin library  -->
+  <script>(function (d, s) {
+    var x = d.createElement(s),
+      s = d.getElementsByTagName(s)[0];
+    x.src = "https://www.xing-share.com/plugins/follow.js";
+    s.parentNode.insertBefore(x, s);
+  })(document, "script");</script>
+
+</li>
   </ol>
 </div> 
 
@@ -170,8 +252,8 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
 </li>
 <li>
   <p style="color:#FF0000";>
-  [02/2022] WeChat/Telegram Group about <a href='https://docs.qq.com/doc/DU0ZWVk9pS2xpZUF5' target="_blank"><u>MS/PHD Application</u></a> in 2023 fall are open to join now. Every applicant could join, if you are intersted, feel free to contact me with your personal introduction via email, Twitter or WeChat (The <a href="#icon">Icons</a> are Shown above).<br>
-  Besides, I am also happy to make new <a href="#friends">friends</a>, you may also contact me in the same way.
+  [02/2022] WeChat/Telegram Group about <a href='https://docs.qq.com/doc/DU0ZWVk9pS2xpZUF5' target="_blank"><u>MS/PHD Application</u></a> (Click to join) in 2023 fall are open to join now. If you are intersted, feel free to contact me with your personal introduction via Email, Twitter or WeChat (The <a href="#icon"><input type="button" value="Icons" )></a> are Shown above).<br>
+  Besides, I am also happy to make new <a href="#friends"><input type="button" value="Friends" )></a>, you may also contact me in the same way.
   </p>
 </li>
 
@@ -184,7 +266,7 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
 [09/2021] I will join MedML Lab, The University of Hong Kong to conduct undergraduate research.
 </li> 
 <li>
-[07/2021] Our URIS project has been approved, Congrats to all of the group members! Thanks for the kindly help and supervision by the Professor!
+<del>[07/2021] Our URIS project has been approved, Congrats to all of the group members! Thanks for the kindly help and supervision by the Professor!</del>
 </li>	
 </div>		
 </ul>
@@ -198,7 +280,7 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
   <div id="polyu education">
   <!--<img id='school_logo' src="./images/polyu.png" border="0" width="350">-->
   <td>
-  <div style="float:right"><img src="./images/polyu85.png" border="0" width="350"></div>
+  <div style="float:right"><a href="https://www.polyu.edu.hk/" target="_blank"><img src="./images/polyu85.png" border="0" width="350"></a></div>
   </td>
   <li>
   <b>The Hong Kong Polytechnic University</b>&nbsp;&nbsp;&nbsp;&nbsp;2019.09&nbsp;-&nbsp;2023.06
@@ -206,14 +288,14 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
   Major: Financial Technology & Artificial Intelligence<br>
   Minor: Applied Mathematics
   </div>
-  <br>
+  
 
   <div id="summerschoolLink" style="display:block;"><p><a href="#" onclick="$('#summerschool').toggle(); return false;"><h3>Summer School</h3></a></p></div>
   <div id="summerschool" style="display:none;" class="alert">
 
   <div id="cambridge education">
   <td>
-  <div style="float:right"><img src="./images/cambridge.png" border="0" width="315"></div>
+  <div style="float:right"><a href="https://www.girton.cam.ac.uk/" target="_blank"><img src="./images/cambridge.png" border="0" width="315"></a></div>
   </td>
   <!--<img id='research_logo' src="./images/cambridge.png" border="0" width="250">-->
   <li>
@@ -237,7 +319,7 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
   <div id="tudelft">
   
   <td>
-  <div style="float:right"><img src="./images/tudelft.png" border="0" width="320"></div>
+  <div style="float:right"><a href="https://www.tudelft.nl/" target="_blank"><img src="./images/tudelft.png" border="0" width="320"></a></div>
   </td>
   <li>
   <b>Technische Universiteit Delft</b>&nbsp;&nbsp;&nbsp;&nbsp;2022.03&nbsp;-&nbsp;now
@@ -251,7 +333,7 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
   <div id="sjtu">
   <!--<img id='school_logo' src="./images/sjtu.png" border="0" width="290">-->
   <td>
-  <div style="float:right"><img src="./images/sjtunew.png" border="0" width="320"></div>
+  <div style="float:right"><a href="https://en.sjtu.edu.cn/" target="_blank"><img src="./images/sjtunew.png" border="0" width="320"></a></div>
   </td>
   <li>
   <b>Shanghai Jiao Tong University</b>&nbsp;&nbsp;&nbsp;&nbsp;2021.12&nbsp;-&nbsp;now
@@ -265,7 +347,7 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
   <div id="hku">
     <!--<img id='school_logo' src="./images/hku.png" border="0" width="350">-->
   <td>
-  <div style="float:right"><img src="./images/hku.png" border="0" width="330"></div>
+  <div style="float:right"><a href="https://www.hku.hk/" target="_blank"><img src="./images/hku.png" border="0" width="330"></a></div>
   </td>
   <li>
   <b>The University of Hong Kong</b>&nbsp;&nbsp;&nbsp;&nbsp;2021.09&nbsp;-&nbsp;now
@@ -274,24 +356,26 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
   Supervisor: Prof. <a href='https://yulequan.github.io/' target="_blank">Lequan Yu</a><br>
   <i>Topic: Multimodal tasks in Medical Image & Text Processing</i>
   </div>
-  <br>
 
 <div id="pastexperienceLink" style="display:block;"><p><a href="#" onclick="$('#pastexperience').toggle(); return false;"><h3>Past Experience</h3></a></p></div>
   <div id="pastexperience" style="display:none;" class="alert">
 
-  <div id="uris">
-  <img id='school_logo' src="./images/polyu85.png" border="0" width="350">
+  <!--<div id="uris">
+  <td>
+  <div style="float:right"><a href="https://www.polyu.edu.hk/" target="_blank"><img src="./images/polyu85.png" border="0" width="350"></a></div>
+  </td>
   <li>
   <b>The Hong Kong Polytechnic University</b>&nbsp;&nbsp;&nbsp;&nbsp;2021.09&nbsp;-&nbsp;2021.04
   </li>
-  <a href="https://www.polyu.edu.hk/ous/uris/about-uris/" target="_blank">University Research Innovation Scheme (URIS)</a><br>Supervisor: Prof. <a href='https://yang7879.github.io/' target="_blank">Bo Yang</a> 
+  University Research Innovation Scheme (URIS)<br>
+  Supervisor: Prof. <a href='https://yang7879.github.io/' target="_blank">Bo Yang</a> 
   <p>Topic: 3D Reconstruction</p>
   </div>
-  <br>
+  <br>-->
 
   <div id="thu">
   <td>
-  <div style="float:right"><img src="./images/thu110.png" border="0" width="350"></div>
+  <div style="float:right"><a href="https://www.tsinghua.edu.cn/en/" target="_blank"><img src="./images/thu110.png" border="0" width="350"></a></div>
   </td>
     <!--<img id='school_logo' src="./images/thu.jpeg" border="0" width="250">-->
   <li>
@@ -301,10 +385,11 @@ html.cye-enabled.cye-nm:not(*:-webkit-full-screen-ancestor) #cye-workaround-body
   Supervisor: Prof. <a href='http://nlp.csai.tsinghua.edu.cn/~lzy/' target="_blank">Zhiyuan Liu</a><br>  
   <i>Topic: Legal document processing by NLP</i>
   </div>
+  <br>
 
   <div id="polyu">
   <td>
-  <div style="float:right"><img src="./images/polyu.png" border="0" width="320"></div>
+  <div style="float:right"><a href="https://www.polyu.edu.hk/" target="_blank"><img src="./images/polyu.png" border="0" width="320"></a></div>
   </td>
   <!--<img id='school_logo' src="./images/polyu.png" border="0" width="350">-->
   <li>
@@ -400,14 +485,16 @@ None
   <!--<img id='school_logo' src="./images/braveheart1.jpeg" border="0" width="250">-->
   <br>
 
-  <div id="MentorLink" style="display:block;"><u><a href="#" onclick="$('#mentor').toggle(); return false;">Mentors (UG Research)</a></u></div>
+
+
+  <div id="MentorLink" style="display:block;"><input type="button" href="#" value="Mentors (UG Research)" onClick="$('#mentor').toggle(); return false;"></div>
   <br>
             <div id="mentor" style="display:none;" class="alert">
                   <i>The University of Hong Kong:</i> <a href="https://fuying-wang.github.io/"  target="_blank">Fuying Wang</a> (PhD Student)<br>
                   <i>The Hong Kong Polytechnic University:</i> <a href=" "  target="_blank">Zexin Lu</a> (PhD Student)<br><br>
             </div>
 
-  <div id="FriendLink" style="display:block;"><u><a href="#" onclick="$('#friend').toggle(); return false;">Friends</a></u></div>
+  <div id="FriendLink" style="display:block;"><input type="button" href="#" value="Friends" onClick="$('#friend').toggle(); return false;"></div>
   <br>
 
   <div id="friend" style="display:none;" class="alert">
@@ -441,7 +528,7 @@ None
   <a href="https://zhuowenzheng.github.io/"  target="_blank">Zhuowen Zheng</a><br><br>
   </div>
 
-  <div id="IdolLink" style="display:block;"><u><a href="#" onclick="$('#idol').toggle(); return false;">Idols</a></u></div>
+  <div id="IdolLink" style="display:block;"><input type="button" href="#" value="Idols" onClick="$('#idol').toggle(); return false;"></div>
   <br>
             <div id="idol" style="display:none;" class="alert">
                   <a href="https://en.wikipedia.org/wiki/Elon_Musk"  target="_blank">Elon Reeve Musk</a>,&nbsp
@@ -455,7 +542,7 @@ None
   <div style="float:right"><img src="./images/braveheart2.jpeg" border="0" width="280"></div>
 </td>
 <br>
-<div id="HobbyLink" style="display:block;"><u><a href="#" onclick="$('#hobby').toggle(); return false;">Hobby</a></u></div>
+<div id="HobbyLink" style="display:block;"><input type="button" href="#" value="Hobby" onClick="$('#hobby').toggle(); return false;"></div>
   <br>
 <div id="hobby" style="display:none;" class="alert">
   <a href="https://www.fcbarcelona.com/en/" target="_blank">Soccer</a> &#9917;,&nbsp;<a href="https://fo4.qq.com/" target="_blank">FIFA OL4</a> &#127918;,&nbsp;<a href= "https://movie.douban.com/top250" target="_blank">Movies</a> &#127916;,&nbsp;<a href="https://en.wikipedia.org/wiki/Dou_dizhu" target="_blank">Dou dizhu</a> &#127183;
@@ -466,7 +553,7 @@ None
 
 <b>Bilibili Videos: &#9996;</b><br>
 <br>
-<div id="BilibiliLink1" style="display:block;"><u><a href="#" onclick="$('#bilibili_interview').toggle(); return false;">Interview</a></u></div>
+<div id="BilibiliLink1" style="display:block;"><input type="button" href="#" value="Interview" onClick="$('#bilibili_interview').toggle(); return false;"></div>
   <br>
 
 <div id="bilibili_interview" style="display:none;" class="alert">
@@ -478,7 +565,7 @@ None
 </li>
 </div>
 
-<div id="BilibiliLink2" style="display:block;"><u><a href="#" onclick="$('#bilibili_video').toggle(); return false;">Video</a></u></div>
+<div id="BilibiliLink2" style="display:block;"><input type="button" href="#" value="Interesting Video" onClick="$('#bilibili_video').toggle(); return false;"></div>
   <br>
 
 <div id="bilibili_video" style="display:none;" class="alert">
@@ -515,15 +602,14 @@ In this video, we talk about life in Hong Kong, full English taught mode and oth
 </ul>
 
 
-<div id="footer">
-  <div id="footer-text"></div>
-</div>
+<div id="footer1">
+  <h2> </h2>
       <div align="center">
-        This page has been visited for
+        <small>This page has been visited for
           <a href="https://www.easycounter.com/">
-          <img src="https://www.easycounter.com/counter.php?zhewang" border="0" alt="HTML Hit Counter"></a>times
-          
-      </div> 
+          <img src="https://www.easycounter.com/counter.php?zhewang" border="0" alt="HTML Hit Counter"></a>times</small>
+        </div> 
+  </div>
 <p>
   <center>
   <div align="center" style="width:20%">
@@ -532,17 +618,16 @@ In this video, we talk about life in Hong Kong, full English taught mode and oth
   </center>
 </p>
 
-
 <p>
   <!-- ShareThis BEGIN --><div class="sharethis-inline-share-buttons"></div><!-- ShareThis END -->
-</p>
-
-<div>
-<div align="center">Last updated by <a href='https://zhe-wang0018.github.io/' target="_blank">Zhe</a> on February, 25th, 2022. &#9200;</div>
-<p>
 <!-- ShareThis BEGIN --><div class="sharethis-inline-reaction-buttons"></div><!-- ShareThis END -->
 </p>
-</div>
+
+<div id="footer">
+  <div id="footer-text"></div>  
+<p align="center"><small>Copyright &copy; <script>document.write(new Date().getFullYear());</script> | WANG Zhe, COMP @ HKPU | All Rights Reserved</small></p>
+<div align="center"><small>@ Last updated by <a href='https://zhe-wang0018.github.io/' target="_blank">Zhe</a> on February, 28th, 2022.</small> &#9200;</div>
+
 
 </body>
 
