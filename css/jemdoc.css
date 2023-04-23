@@ -462,6 +462,12 @@ span.fa-stack > a > i.fab:hover, i.fas:hover {
   margin-top: 10px;
 }
 
+details summary::marker {
+    content:'▶️';
+}
+details[open] summary::marker{
+    content:'🔽'
+}
 
 
 
